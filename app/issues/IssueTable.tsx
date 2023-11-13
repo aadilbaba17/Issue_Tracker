@@ -11,7 +11,7 @@ import { Issue, Status } from '@prisma/client'
 }
 interface Props{
     searchParams:IssueQuery,
-    issues:Issue
+    issues:Issue[]
 }
 
 const IssueTable = ({searchParams,issues}:Props) => {
